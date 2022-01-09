@@ -2,6 +2,9 @@
   "name": "expensify",
   "version": "1.0.0",
   "description": "Lee's practice app",
+  "engines": {
+    "node": "15.4.0"
+    },
   "main": "index.js",
   "author": "Andrew Mead",
   "license": "MIT",
