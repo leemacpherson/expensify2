@@ -10,6 +10,7 @@ import "./styles/styles.scss";
 import "normalize.css/normalize.css";
 import "react-dates/lib/css/_datepicker.css";
 
+// make an instance of the store
 const store = configStore();
 
 const jsx = (
