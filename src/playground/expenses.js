@@ -1,12 +1,12 @@
-import moment from "moment";
+const moment = require("moment");
 
-export default [
+const expenses = [
   {
     id: "1",
     description: "Gum",
     note: "",
     amount: 195,
-    createdAt: 0,
+    createdAt: moment(0).valueOf(),
   },
   {
     id: "2",
@@ -23,3 +23,5 @@ export default [
     createdAt: moment(0).add(4, "days").valueOf(),
   },
 ];
+
+exports.expenses = expenses;
